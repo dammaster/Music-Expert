@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:background="#f2f2f2"
+        android:hint="@string/hint"/>
+
+
+    <TextView
+        android:id="@+id/text_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:text="@string/decade"/>
+
+
+    <RadioGroup
+        android:layout_below="@id/text_choose"
+        android:id="@+id/years"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+
+        >
+
+
+        <RadioButton
+            android:id="@+id/year60"
+            style="@style/rButton"
+            android:checked="true"
+            android:text="60's" />
+
+        <RadioButton
+            android:id="@+id/year70"
+            style="@style/rButton"
+            android:text="70's" />
+
+        <RadioButton
+            android:id="@+id/year80"
+            style="@style/rButton"
+            android:text="80's"       />
+
+        <RadioButton
+            android:id="@+id/year90"
+            style="@style/rButton"
+            android:text="90's"       />
+
+
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        style="@style/CustomButton"
+        android:text="@string/button"
+        android:onClick="send"
+
+        />
+
+
+</RelativeLayout>

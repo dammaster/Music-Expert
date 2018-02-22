@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="CustomButton" >
+        <!-- Customize your theme here. -->
+        <item name="android:background">#0080FF</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="chronometer" >
+        <!-- Customize your theme here. -->
+        <item name="android:background">#0080FF</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="rButton" >
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">21dp</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Expert</string>
+    <string name="text_main">We love the music!</string>
+    <string name="hint">Your name</string>
+    <string name="hint2">Your name</string>
+    <string name="button">Start</string>
+    <string name="check">Check</string>
+    <string name="close">Close</string>
+    <string name="bye">Good bye!</string>
+    <string name="next">Next</string>
+    <string name="yes">Yes</string>
+    <string name="not">Not</string>
+    <string name="finish">last question</string>
+    <string name="play_again">Do you want to play again?</string>
+    <string name="playAgain">Play again</string>
+    <string name="result">Result</string>
+    <string name="correct">Correct</string>
+    <string name="decade">Choose your favorite decade!</string>
+    <string name="leave">Do you want to leave Music Expert?</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="share">Share</string>
+    <string name="recommend">I recommend you this app</string>
+    <string name="you_have">You have</string>
+    <string name="seconds_for">seconds for</string>
+    <string name="questions">questions</string>
+    <string name="not_go_back">you can\'t go back</string>
+
+
+
+    <array name="all_questions60">
+        <item>What is the drummers name?;Paul McCartney;*Ringo Starr;George Harrison;she_loveyou
+        </item>
+        <item>Which is the group?;*The Beach Boys;The Supremes;The Lovin;beach_boys</item>
+        <item>From which year is the song?;*65;67;69;satisfaction</item>
+        <item>Which is the group?;*The Kinks;The Who;*The Doors;the_doors</item>
+    </array>
+
+    <array name="all_questions70">
+        <item>Which is the group?;AC/DC;Rolling Stone;*Queen;bohemian_rhapsody</item>
+        <item>Who is the singer?;Wild Cherry;*Stevie Wonder;Rod Stewart;superstition</item>
+        <item>Which is the group?;Bee Gees;Led Zeppelin;*The Knack;my_sharona</item>
+        <item>Who is the singer?;*Gloria Gaynor;Donna Summer;Blondie;survive</item>
+    </array>
+
+    <array name="all_questions80">
+        <item>From which song is this solo?;Smooth Criminal;Billie jean;*Beat it;beat_it</item>
+        <item>What is the name of the song?;*With or without you;I will follow;Sweetest
+            things;with_or_without_you
+        </item>
+        <item>From which year is the song?;82;85;*87;sweet_child_o_mine</item>
+        <item>What is the name of the song?;Send it to me;Waiting for a friend;*Start Me Up;start_me_up
+        </item>
+    </array>
+
+    <array name="all_questions90">
+        <item>From which year is the song?;92;*94;97;one_92</item>
+        <item>Which is the group?;The Corrs;The Cardigans;*The Cranberries;zombie_94</item>
+        <item>From which year is the song?;91;92;*94;gin_and_juice_94</item>
+        <item>Who is the singer?;*Natalie Imbruglia;Alanis Morissette;Shania Twain;torn_97</item>
+    </array>
+
+
+
+</resources>
